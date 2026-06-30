@@ -1,7 +1,5 @@
 # TLS Point Cloud Registration and Coordinate Transformation
 
-## Overview
-
 This project demonstrates how multiple terrestrial laser scanner (TLS) scans can be combined into single 3D point cloud and transformed into global coordinate system.
 
 1. Convert raw TLS measurements from spherical coordinates to Cartesian coordinates.
@@ -64,10 +62,8 @@ Longitude: 7.0867992
 
 Altitude: 108.50 m
 
----
 
-
-## Tools Used
+### Tools Used
 
 * Python
 * NumPy
@@ -75,7 +71,6 @@ Altitude: 108.50 m
 * CloudCompare
 * Google Earth
 * Google Maps
----
 
 ## Author
 
