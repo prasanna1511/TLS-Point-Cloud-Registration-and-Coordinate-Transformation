@@ -37,7 +37,10 @@ Each scanner has its own local coordinate system and then combine all to whole p
 * Use the transformation parameters from data
 * Transform S1, S2, and S3 into the coordinate frame of S4.
 * Apply the transformations iteratively.
-* Merge the transformed point clouds https://github.com/prasanna1511/TLS-Point-Cloud-Registration-and-Coordinate-Transformation/blob/main/complete_registration.png.
+* Merge the transformed point cloud after registration
+![Complete Registration](./complete_registration.png)
+before registration
+![without_approximate_registartion_transformations](./cloudcompare_allscans_without_registration.png)
 
 ### Transformation to WGS84
 
@@ -51,7 +54,7 @@ The WGS84 coordinates are converted to:
 
 The final coordinates are checked using:
 
-* Google Maps https://github.com/prasanna1511/TLS-Point-Cloud-Registration-and-Coordinate-Transformation/blob/main/google_map.png
+* Google Maps ![google_map](Data/google_map.png)
 * Google Earth
 
 The estimated location corresponds to:
