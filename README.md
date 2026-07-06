@@ -66,15 +66,6 @@ Longitude: 7.0867992
 Altitude: 108.50 m
 
 
-### Tools Used
-
-* Python
-* NumPy
-* Open3D
-* CloudCompare
-* Google Earth
-* Google Maps
-
 ## Author
 
 Prasanna Bijja
